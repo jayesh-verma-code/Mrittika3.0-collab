@@ -1,5 +1,14 @@
 import React from 'react'
 import './sponsor.css';
+import sponsor1 from '../assets/Sponsor1.png';
+import sponsor2 from '../assets/Sponsor2.png';
+import sponsor3 from '../assets/Sponsor3.png';
+import sponsor4 from '../assets/Sponsor4.png';
+import sponsor5 from '../assets/Sponsor5.png';
+import sponsor6 from '../assets/Sponsor6.png';
+import sponsor7 from '../assets/Sponsor7.png';
+import sponsor8 from '../assets/Sponsor8.png';
+import sponsor9 from '../assets/Sponsor9.png';
 
 function sponsor() {
   return (
@@ -8,26 +17,26 @@ function sponsor() {
         <h1 className='font-["Bebas_Neue"] text-[110px] leading-[100px] text-[#212121] font-semibold mb-[20px]'>sponsor's</h1>
         <div className='logos relative'>
         <div className='logos-slide flex gap-10'>
-            <img src="./Sponsor1.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor2.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor3.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor4.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor5.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor6.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor7.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor8.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor9.png" alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor1} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor2} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor3} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor4} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor5} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor6} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor7} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor8} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor9} alt="" className='h-[100px] w-[160px]'/>
         </div>
         <div className='second logos-slide flex gap-10 relative'>
-            <img src="./Sponsor1.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor2.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor3.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor4.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor5.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor6.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor7.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor8.png" alt="" className='h-[100px] w-[160px]'/>
-            <img src="./Sponsor9.png" alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor1} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor2} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor3} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor4} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor5} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor6} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor7} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor8} alt="" className='h-[100px] w-[160px]'/>
+            <img src={sponsor9} alt="" className='h-[100px] w-[160px]'/>
         </div>
         </div>
         
@@ -62,7 +71,7 @@ function sponsor() {
     <div className='w-full px-20 flex justify-between mt-[120px]'>
         <p className='font-["Bebas_Neue"] text-[#212121] text-2xl'>InCerS NITR</p>
         <p className='text-[15px] text-[#ADADAD]'>@Mrittika3.0 2025-26 <u>Right Reserve</u></p>
-        <p className='text-[15px] text-[#ADADAD]'>Design by InCerS WebD Team</p>
+        <p className='text-[15px] text-[#ADADAD]'>Design by Jayesh Verma[NIT R]</p>
       </div>
     </div>
   )
