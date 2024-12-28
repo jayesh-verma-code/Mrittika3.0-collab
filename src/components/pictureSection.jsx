@@ -1,7 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import convener1 from '../assets/convener1.jpg';
-import convener2 from '../assets/convener2.jpg';
 import prof1 from '../assets/prof1.png';
 import prof2 from '../assets/prof2.png';
 import prof3 from '../assets/prof3.png';
@@ -32,12 +30,12 @@ function pictureSection() {
   
   return (
    <div data-scroll data-scroll-speed="-0.1" className='w-full bg-[#CDEA68] rounded-3xl z-1000'>
-     <div className='w-full px-20 py-20 text-black z-1000'>
-        <div className='outerDiv w-full flex'>
-            <div className='innerDiv1 w-1/2 py-5'>
-                <h1 className='font-["Inter"] text-3xl z-1000'>We express our gratitude to our <u>convener</u>, <u>professors</u>, <u>executive members</u>, and everyone who helped make Mrittika 2.0 a grand success. Your support and dedication turned it into an <u>award-winning event.</u></h1>
+     <div className='w-full px-[8vw] py-[3vh] text-black px-20 py-20 z-1000'>
+        <div className='outerDiv w-full flex-col lg:flex'>
+            <div className='innerDiv1 lg:w-1/2 py-5'>
+                <h1 className='font-["Inter"] text-3xl z-1000 w-[75vw] lg:w-[50vw] '>We express our gratitude to our <u>convener</u>, <u>professors</u>, <u>executive members</u>, and everyone who helped make Mrittika 2.0 a grand success. Your support and dedication turned it into an <u>award-winning event.</u></h1>
             </div>
-            <div className='w-1/2 text-black px-5 text-center relative'>
+            <div className='w-1/2 mt-[20px] md:mt-[0px] lg:mt-[0px] text-black px-5 text-center relative ml-[15vw] sm:ml-[5vw] '>
                  <h1 className='text-2xl font-["Inter"] font-semibold mb-[10px] text-[#212121] '>Convener</h1>
                  <div className='flex justify-center gap-[30px]'>
                     <img src={covernor1} className='h-[160px] w-[160px] bg-cover' alt="" />

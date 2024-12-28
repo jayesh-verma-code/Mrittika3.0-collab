@@ -12,11 +12,11 @@ import sponsor9 from '../assets/Sponsor9.png';
 
 function sponsor() {
   return (
-    <div className='w-full h-screen z-10'> 
+    <div className='w-full  z-10'> 
       <div className='w-full  bg-[#F1F1F1] px-20 mt-[100px] mb-[150px]'>
         <h1 className='font-["Bebas_Neue"] text-[110px] leading-[100px] text-[#212121] font-semibold mb-[20px]'>sponsor's</h1>
         <div className='logos relative'>
-        <div className='logos-slide flex gap-10'>
+        <div className='logos-slide gap-10 flex'>
             <img src={sponsor1} alt="" className='h-[100px] w-[160px]'/>
             <img src={sponsor2} alt="" className='h-[100px] w-[160px]'/>
             <img src={sponsor3} alt="" className='h-[100px] w-[160px]'/>
@@ -42,10 +42,10 @@ function sponsor() {
         
     </div>
     <div className='w-full border-t-[0.5px] border-[#212121]'></div>
-    <div className='w-full px-20 flex justify-between mt-[30px]'>
+    <div className='w-full px-20 lg:flex lg:justify-between mt-[30px]'>
       <div>
         <p className='text-2xl font-["Inter"] tracking-tight text-[#212121]'>Proudly announching Mrittika Title Sponsors</p>
-        <ul className='mt-[20px] '>
+        <ul className='mt-[20px] mb-[30px] lg:mb-[0]'>
           <li className='mb-[6px]'>Mahakoshal Refracories Pvt Lmt</li>
           <li className='mb-[6px]'>TRL Krosaki Refractories Pvt Lmt</li>
           <li className='mb-[6px]'>Sino Global Pvt Lmt</li>
@@ -55,7 +55,7 @@ function sponsor() {
       </div>
       <div>
         <p className='text-2xl font-["Inter"] tracking-tight text-[#212121]'>Proudly announching Mrittika Gold & Silver Sponsors</p>
-        <ul className='mt-[20px] '>
+        <ul className='mt-[20px] mb-[30px] lg:mb-[0]'>
           <li className='mb-[6px]'>Mahakoshal Refracories Pvt Lmt</li>
           <li className='mb-[6px]'>TRL Krosaki Refractories Pvt Lmt</li>
           <li className='mb-[6px]'>Sino Global Pvt Lmt</li>
@@ -68,9 +68,9 @@ function sponsor() {
       </div>
       
     </div>
-    <div className='w-full px-20 flex justify-between mt-[120px]'>
+    <div className='w-full px-20 flex justify-between  mt-[80px] lg:mt-[120px]'>
         <p className='font-["Bebas_Neue"] text-[#212121] text-2xl'>InCerS NITR</p>
-        <p className='text-[15px] text-[#ADADAD]'>@Mrittika3.0 2025-26 <u>Right Reserve</u></p>
+        <p className='text-[15px] text-[#ADADAD] hidden md:block lg:block'>@Mrittika3.0 2025-26 <u>Right Reserve</u></p>
         <p className='text-[15px] text-[#ADADAD]'>Design by Jayesh Verma[NIT R]</p>
       </div>
     </div>

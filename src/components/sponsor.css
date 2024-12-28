@@ -21,6 +21,27 @@
     left: 85%;
 }
 
+@media (max-width: 500px) {
+    
+    .second {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .second {
+        left: 190%;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .second {
+        left: 220%
+    }
+}
+
 .logo:before {
     position: absolute;
     top: 0;
