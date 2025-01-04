@@ -71,7 +71,7 @@ function sponsor() {
     <div className='w-full px-20 flex justify-between  mt-[80px] lg:mt-[120px]'>
         <p className='font-["Bebas_Neue"] text-[#212121] text-2xl'>InCerS NITR</p>
         <p className='text-[15px] text-[#ADADAD] hidden md:block lg:block'>@Mrittika3.0 2025-26 <u>Right Reserve</u></p>
-        <p className='text-[15px] text-[#ADADAD]'>Design by Jayesh Verma[NIT R]</p>
+        <p className='text-[15px] text-[#ADADAD]'>Developed by Jayesh Verma[NIT R]</p>
       </div>
     </div>
   )
