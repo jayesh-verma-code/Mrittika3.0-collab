@@ -1,4 +1,4 @@
-import React from 'react'
+// Sponsor Component
 import './sponsor.css';
 import sponsor1 from '../assets/Sponsor1.png';
 import sponsor2 from '../assets/Sponsor2.png';
@@ -27,6 +27,7 @@ function sponsor() {
             <img src={sponsor8} alt="" className='h-[100px] w-[160px]'/>
             <img src={sponsor9} alt="" className='h-[100px] w-[160px]'/>
         </div>
+        
         <div className='second logos-slide flex gap-10 relative'>
             <img src={sponsor1} alt="" className='h-[100px] w-[160px]'/>
             <img src={sponsor2} alt="" className='h-[100px] w-[160px]'/>
